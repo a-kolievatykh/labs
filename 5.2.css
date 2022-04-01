@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+#container{
+    margin:5px;
+    border:solid 3px pink;
+    background-color:rgb(240, 236, 14);
+    width:100%;
+    height:80%;
+}
+#header{
+    margin:5px;
+    border:solid 3px pink;
+    background-color:rgb(31, 177, 221);
+    width:100%;
+    height:150px;
+}
+#menu{
+       width:25%;
+    padding:5px;
+    margin:5px;
+    border:solid 3px pink;
+    background-color:rgb(93, 104, 107);
+    height:300px;
+    float:left;
+    
+}
+#content{
+     width:50%;
+    padding:5px;
+    margin:5px;
+    border:solid 3px pink;
+    background-color:rgb(93, 104, 107);
+    height:300px;
+    float:right;
+    float:left;
+}
+#footer{
+    width:13%;
+    padding:5px;
+    margin:5px;
+    border:solid 3px pink;
+    background-color:rgb(93, 104, 107);
+    height:300px;
+    float:right;
+    float:left;
+  
+}
+
+  
+.vidstup{
+    margin-top:5px;
+    margin-bottom:5px;}

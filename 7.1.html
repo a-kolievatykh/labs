@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Гіпертекстовий документ</title>
+    <meta charset="utf-8">
+    <script>
+        function calculate() {
+            var inputs = document.getElementById("test-form").elements;
+            var a1 = parseInt (inputs[0].value);
+            var a2 = parseInt (inputs[1].value);
+            var a3 = parseInt (inputs[2].value);
+            var max = a1;
+            if (max < a2) {
+                max = a2;
+            }
+            if (max < a3) {
+                max = a3;
+            }
+            document.getElementById('rez2-2').innerHTML = "Максимальное число = " + max;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Задача 2. Другий спосіб рішення</h1>
+    <form name="test" method="post" id="test-form">
+        <p><b>Дано три числа:</b></p>
+         <input type="text" size="2"  value="23">
+         <input type="text" size="2"  value="1500">
+         <input type="text" size="2"  value="900">
+        <p>
+            <input type="button" value="Вивести максимальне з них" onclick="calculate()">
+        </p>
+    </form>
+
+    <h3 id="rez2-2"></h3>
+   
+</body>
+
+</html>
